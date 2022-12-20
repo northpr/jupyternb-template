@@ -1,0 +1,10 @@
+jupyterlab
+jupyterlab-git
+jupyterlab-pygments
+jupyterlab-spellchecker
+jupyterlab-tabnine
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn

@@ -1,4 +1,5 @@
 jupyterlab
+jupyterlab-drawio
 jupyterlab-git
 jupyterlab-pygments
 jupyterlab-spellchecker

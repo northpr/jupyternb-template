@@ -8,13 +8,13 @@ Please read how to install
     
     ```conda activate <env-name>```
 
-3. Install pip
+3. Real the tutorial
 
-    ```conda install pip```
+    ```make tutorial```
 
-4. Install requirements.txt
+4. Install requirements
 
-    ```pip install -r requirements.txt```
+    ```make install```
 
 5. Remove this repo on your develop directory
 

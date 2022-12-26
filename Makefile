@@ -4,7 +4,6 @@ tutorial:
 
 install:
 	if [ "$(CONDA_DEFAULT_ENV)" != "base" ]; then \
-		conda activate $(ENV_NAME); \
 		conda install -y pip; \
 		pip install -r requirements.txt; \
 	else \

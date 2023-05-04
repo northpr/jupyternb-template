@@ -1,24 +1,33 @@
-# Template for Jupyter-lab dev
-Please read how to install
+# Jupyter Notebook Template
 
-1. Clone this repo
-2. Create conda environment and activate the environment
+A Jupyter Notebook template with a standardized directory structure, using [nbdev](https://github.com/fastai/nbdev) for automation.
 
-    ```conda create -n <env-name>```
-    
-    ```conda activate <env-name>```
+## Quick Start
 
-3. Real the tutorial
+1. Clone the repository:
 
-    ```make tutorial```
+   ```
+   git clone https://github.com/northpr/jupyternb-template.git
+   cd jupyternb-template
+   ```
 
-4. Install requirements
+2. Create and activate a conda environment:
 
-    ```make install```
+   ```
+   conda create --name your_env_name python=3.9
+   conda activate your_env_name
+   ```
 
-5. Remove this repo on your develop directory
+3. Install dependencies:
 
-    ```rm -rf .git```
+   ```
+   make install
+   ```
 
-## How to
-nbs = notebooks
+4. Build Python modules from notebooks:
+
+   ```
+   make build
+   ```
+
+For more information, refer to the detailed documentation.

@@ -2,9 +2,10 @@ jupyterlab
 jupyterlab-drawio
 jupyterlab-git
 jupyterlab-pygments
-jupyterlab-spellchecker
 matplotlib
 numpy
+nbdev < 2
 pandas
+plotly
 scikit-learn
 seaborn

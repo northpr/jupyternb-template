@@ -1,4 +1,30 @@
-__pycache__/
-.ipynb_checkpoints
+# General
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints
 .virtual_documents/
+
+# nbdev
+app/_nbdev.py
+app/__init__.py
+
+# Build and test artifacts
+dist/
+build/
+*.egg-info/
+
+# Environments
+.venv/
+*.env
+*.condaenv
+
+# Logs
+logs/
+*.log

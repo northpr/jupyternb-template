@@ -30,4 +30,9 @@ A Jupyter Notebook template with a standardized directory structure, using [nbde
    make build
    ```
 
+5. Remove this repo on your develop directory
+   ```
+   rm -rf .git
+   ```
+
 For more information, refer to the detailed documentation.

@@ -1,7 +1,3 @@
-jupyterlab
-jupyterlab-drawio
-jupyterlab-git
-jupyterlab-pygments
 matplotlib
 numpy
 nbdev < 2
